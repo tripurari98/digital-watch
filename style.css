@@ -1,0 +1,118 @@
+body{
+    background-color: #453a38;
+     text-align: center;
+   
+     
+ }
+
+
+
+ #text{
+     color: rgb(12, 8, 8);
+  
+     font-size: 30px;
+     font-weight: 900;
+     text-shadow: 1px 2px rgb(239, 10, 193);
+     background-color: rgb(167, 164, 135);
+     display: inline-block;
+     width: 300px;
+     border-radius: 10px;
+     height: 60px;
+   align-content:space-around;
+   border: 5px solid;
+  /* border-image: linear-gradient(45deg, red, yellow, green, cyan, blue, purple) 1;
+ */
+  animation: flow-color 1s infinite;
+     
+ }
+
+ @keyframes flow-color {
+0% {
+ border-color: rgb(255, 230, 0);
+}
+25% {
+ border-color: rgb(22, 255, 10);
+}
+
+50% {
+ border-color: rgb(255, 12, 186);
+}
+75% {
+ border-color: blue;
+color: brown;
+}
+100% {
+ border-color: rgb(255, 18, 121);
+}
+}
+
+
+
+#time{
+background-color: white;
+display: inline-block;
+align-content: space-around;
+height: 80px;
+width: 260px;
+font-weight: bolder;
+font-size: 40px;
+background-color: burlywood;
+text-shadow: 2px 2px rgb(204, 83, 174);
+border: 5px;
+border-style:groove;
+border-radius: 10px;
+animation: flow 2s infinite;
+
+
+
+
+}
+
+
+@keyframes flow {
+    0% {
+     border-color: rgb(255, 230, 0);
+    }
+    25% {
+     border-color: rgb(255, 10, 124);
+    }
+    
+    50% {
+     border-color: rgb(34, 7, 182);
+    }
+    75% {
+     border-color: rgb(68, 255, 0);
+    color: brown;
+    }
+    100% {
+     border-color: rgb(255, 18, 121);
+    }
+    }
+    
+
+.container{
+background-color: rgba(145, 154, 84, 0.775);
+height: 300px;
+width: 400px;
+border-radius: 50px;
+margin: auto ;
+margin-top: 80px;
+align-content: space-around;
+border: 5px solid red;
+border-image: linear-gradient(45deg, red, yellow, green, cyan, blue, purple) 1;
+
+}
+
+
+#date{
+    background-color: white;
+    display: inline-block;
+align-content: space-around;
+margin-top: -10px;
+border: 5px solid rgb(150, 0, 205);
+height: 40px;
+font-weight: bolder;
+  width: 270px;
+  border-radius: 10px;
+  font-size: larger;
+}
